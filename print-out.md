@@ -35,3 +35,15 @@ index: 1, element.Name: Three
 index: 2, element.Name: Three
 
 ```
+
+Fix pointer issue
+```
+index: 0, element.Name: Zero
+
+index: 1, element.Name: One
+
+index: 3, element.Name: Three
+
+index: 2, element.Name: Two
+
+```
