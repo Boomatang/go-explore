@@ -15,7 +15,7 @@ func main() {
 
 	for index, item := range items {
 		wg.Add(1)
-		worker(index, &item, &wg)
+		go worker(index, &item, &wg)
 	}
 	wg.Wait()
 }
